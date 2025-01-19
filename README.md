@@ -71,7 +71,8 @@ open index.html
 - Menambahkan desain responsif untuk perangkat mobile.
 
 ## Screenshot
-![Screenshot Aplikasi Kasir Sederhana]![Macbook-Air- (1)](https://github.com/user-attachments/assets/8de3c65c-bd9b-4ec3-a989-063eacac3c1f)
+![Screenshot Aplikasi Kasir Sederhana]![Macbook-Air- (1)](https://github.com/user-attachments/assets/8de3c65c-bd9b-4ec3-a989-063eacac3c1f) ![iPhone-11-PRO-MAX- (1)](https://github.com/user-attachments/assets/f8a4b1ff-664b-401a-a76d-2be3b756ba1e)
+
 
 
 
