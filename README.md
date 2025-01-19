@@ -80,4 +80,4 @@ open index.html
 Proyek ini dilisensikan di bawah Lisensi MIT. Lihat file LICENSE untuk detail lebih lanjut.
 
 ## Penulis
-- **Bimo Febrianto** - [Profil GitHub Anda]([https://github.com/yourusername](https://github.com/bimofebrianto))
+- **Bimo Febrianto** - (https://github.com/bimofebrianto)
