@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kasir Toko Bimo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Kasir Toko Bimo</h1>
+    <div class="container">
+        <table>
+            <thead>
+                <tr>
+                    <th>Nama Barang</th>
+                    <th>Harga (Rp)</th>
+                    <th>Jumlah</th>
+                </tr>
+            </thead>
+            <tbody id="barang-list">
+                <tr>
+                    <td>Sabun</td>
+                    <td>5000</td>
+                    <td><input type="number" data-item="Sabun" data-price="5000" min="0" value="0"></td>
+                </tr>
+                <tr>
+                    <td>Shampoo</td>
+                    <td>15000</td>
+                    <td><input type="number" data-item="Shampoo" data-price="15000" min="0" value="0"></td>
+                </tr>
+                <tr>
+                    <td>Pasta Gigi</td>
+                    <td>10000</td>
+                    <td><input type="number" data-item="Pasta Gigi" data-price="10000" min="0" value="0"></td>
+                </tr>
+                <tr>
+                    <td>Mie Goreng</td>
+                    <td>3500</td>
+                    <td><input type="number" data-item="Mie Goreng" data-price="3500" min="0" value="0"></td>
+                </tr>
+                <tr>
+                    <td>Minyak Goreng</td>
+                    <td>25000</td>
+                    <td><input type="number" data-item="Minyak Goreng" data-price="25000" min="0" value="0"></td>
+                </tr>
+                <tr>
+                    <td>Beras</td>
+                    <td>12000</td>
+                    <td><input type="number" data-item="Beras" data-price="12000" min="0" value="0"></td>
+                </tr>
+                <tr>
+                    <td>Rokok</td>
+                    <td>35000</td>
+                    <td><input type="number" data-item="Rokok" data-price="35000" min="0" value="0"></td>
+                </tr>
+                <tr>
+                    <td>Tepung</td>
+                    <td>15000</td>
+                    <td><input type="number" data-item="Tepung" data-price="15000" min="0" value="0"></td>
+                </tr>
+                <tr>
+                    <td>Telur</td>
+                    <td>32000</td>
+                    <td><input type="number" data-item="Telur" data-price="32000" min="0" value="0"></td>
+                </tr>
+                <tr>
+                    <td>Bumbu</td>
+                    <td>2000</td>
+                    <td><input type="number" data-item="Bumbu" data-price="2000" min="0" value="0"></td>
+                </tr>
+            </tbody>
+        </table>
+        <div class="total">
+            <strong>Total: Rp </strong><span id="total-harga">0</span>
+        </div>
+        <div class="payment">
+            <label for="bayar">Jumlah Bayar: Rp </label>
+            <input type="number" id="bayar" min="0">
+        </div>
+        <button class="button" onclick="prosesPembayaran()">Bayar</button>
+        <div class="struk" id="struk">
+            <h2>Struk Pembelian</h2>
+            <p id="rincian-belanja"></p>
+            <p><strong>Total:</strong> Rp <span id="struk-total"></span></p>
+            <p><strong>Dibayar:</strong> Rp <span id="struk-bayar"></span></p>
+            <p><strong>Kembalian:</strong> Rp <span id="struk-kembalian"></span></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
